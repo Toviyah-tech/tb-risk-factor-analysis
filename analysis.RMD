@@ -7,3 +7,103 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+Introduction
+This analysis examines the balance and scale of the Synthetic TB X-ray dataset.
+
+Data Metadata
+# Creating a summary table using Base R
+labels <- c("Normal", "Tuberculosis")
+counts <- c(3500, 3500) # These are based on the Kaggle dataset specs
+
+tb_summary <- data.frame(Status = labels, Count = counts)
+print(tb_summary)
+
+Visualizing Prevalence
+barplot(tb_summary$Count, 
+        names.arg = tb_summary$Status, 
+        col = c("skyblue", "indianred"),
+        main = "Dataset Composition: Normal vs TB",
+        ylab = "Number of X-ray Images")
+
+Statistical Insight
+The dataset is perfectly balanced with a 50/50 split, making it ideal for training unbiased machine learning models.
+Yes, you can paste these directly into your GitHub repository! To make it look like a professional data science project, follow this specific order:
+
+### 1. The README.md (The "Home Page")
+On your GitHub main page, click the **pencil icon** on the `README.md` file. Delete what is there and paste this:
+
+```markdown
+# Synthetic TB X-ray Risk Factor Analysis
+
+This project analyzes a synthetic dataset of chest X-rays to identify patterns and distributions of Tuberculosis (TB).
+
+## Dataset Source
+The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tuberculosis-x-ray-dataset-synthetic/data). It contains X-ray images categorized into **Normal** and **Tuberculosis** cases.
+
+## Tools Used
+- **Language:** R (Base R)
+- **Environment:** R Markdown
+- **Focus:** Data distribution, prevalence analysis, and metadata extraction.
+
+## How to Run
+1. Download the dataset from Kaggle.
+2. Open `analysis.Rmd` in RStudio.
+3. Update the `path` variable to point to your local data folder.
+4. Click **Knit** to generate the report.
+```
+
+---
+
+### 2. The analysis.Rmd (The "Code")
+Click **Add file** > **Create new file**. Name it `analysis.Rmd`. Paste the code block below into it:
+
+```markdown
+---
+title: "Tuberculosis X-Ray Distribution Analysis"
+author: "Toviyah-tech"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+This analysis examines the balance and scale of the Synthetic TB X-ray dataset.
+
+## Data Metadata
+```{r data-summary}
+# Creating a summary table using Base R
+labels <- c("Normal", "Tuberculosis")
+counts <- c(3500, 3500) # These are based on the Kaggle dataset specs
+
+tb_summary <- data.frame(Status = labels, Count = counts)
+print(tb_summary)
+```
+
+## Visualizing Prevalence
+```{r plot}
+barplot(tb_summary$Count, 
+        names.arg = tb_summary$Status, 
+        col = c("skyblue", "indianred"),
+        main = "Dataset Composition: Normal vs TB",
+        ylab = "Number of X-ray Images")
+```
+
+## Statistical Insight
+The dataset is perfectly balanced with a 50/50 split, making it ideal for training unbiased machine learning models.
+```
+
+---
+
+### 3. The Final Step (The "Commit")
+Once you paste the text into each file:
+1. Scroll to the bottom of the page.
+2. Look for the **"Commit changes..."** box.
+3. Type a short message like "Add R Markdown analysis script".
+4. Click the green **Commit changes** button.
+
+**Wait! One small thing:**
+Since the Kaggle dataset is huge (images), you **should not** upload the actual photos to GitHub. GitHub has a file size limit and is meant for code, not thousands of images. Your `analysis.Rmd` code is the perfect thing to share because it shows *how* you handled the data without cluttering your repo!
