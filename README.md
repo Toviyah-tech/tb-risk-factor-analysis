@@ -8,7 +8,7 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 ## Tools Used
 - **Language:** R (Base R)
 - **Environment:** R Markdown
-- **Focus:** Data distribution, prevalence analysis, and metadata extraction.
+- **Focus:** Data distribution, prevalence analysis, exploratory analysis, and metadata extraction.
 - Microsoft Excel
 
 ## What I learned 
