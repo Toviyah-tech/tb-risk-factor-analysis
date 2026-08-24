@@ -9,6 +9,7 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 - **Language:** R (Base R)
 - **Environment:** R Markdown
 - **Focus:** Data distribution, prevalence analysis, and metadata extraction.
+- Microsoft Excel
 
 ## How to Run
 1. Download the dataset from Kaggle.
