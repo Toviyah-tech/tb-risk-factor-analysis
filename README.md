@@ -18,9 +18,10 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 
   
 ## Preview 
+- Results in R
 - Open (https://posit.cloud/content/12771786) on your browser.
 - It takes you straight to Posit Cloud and sign in.
-- Excel Output
+- Results in Excel 
 - |[Overall TB Distribution on Microsoft Excel using Pivot Table] (https://github.com/Toviyah-tech/tb-risk-factor-analysis/commit/fdbc098199aeed12382bc1a1fa5fe1aa7a5eb89b)
 
 
