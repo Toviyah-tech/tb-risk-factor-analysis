@@ -13,6 +13,5 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 
 ## How to Run
 1. Download the dataset from Kaggle.
-2. Open `analysis.Rmd` in RStudio.
-3. Update the `path` variable to point to your local data folder.
-4. Click **Knit** to generate the report.
+2. Open `https://posit.cloud/content/12771786` in Posit Cloud.
+
