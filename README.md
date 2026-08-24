@@ -21,6 +21,6 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 - Open (https://posit.cloud/content/12771786) on your browser.
 - It takes you straight to Posit Cloud and sign in.
 - Excel Output
-- |[Overall TB Distribution (Diagnosis Counts & Percentages] (https://github.com/Toviyah-tech/tb-risk-factor-analysis/commit/fdbc098199aeed12382bc1a1fa5fe1aa7a5eb89b)
-- |[TB Cases by Gender Distribution] ()
+- |[Overall TB Distribution on Microsoft Excel using Pivot Table] (https://github.com/Toviyah-tech/tb-risk-factor-analysis/commit/fdbc098199aeed12382bc1a1fa5fe1aa7a5eb89b)
+
 
