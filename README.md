@@ -11,8 +11,14 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 - **Focus:** Data distribution, prevalence analysis, and metadata extraction.
 - Microsoft Excel
 
+## What I learned 
+- How to clean messy Excel data using formulas
+- How to summarize KPIs using pivot tables
+- How to visualize insights in R
+
+  
 ## Preview 
 - Open (https://posit.cloud/content/12771786) on your browser.
 - It takes you straight to Posit Cloud and sign in.
-- 
+
 
