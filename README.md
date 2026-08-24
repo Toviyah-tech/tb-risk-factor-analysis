@@ -11,7 +11,8 @@ The data is sourced from [Kaggle](https://www.kaggle.com/datasets/miadul/tubercu
 - **Focus:** Data distribution, prevalence analysis, and metadata extraction.
 - Microsoft Excel
 
-## How to Run
-1. Download the dataset from Kaggle.
-2. Open `https://posit.cloud/content/12771786` in Posit Cloud.
+## Preview 
+- Open (https://posit.cloud/content/12771786) on your browser.
+- It takes you straight to Posit Cloud and sign in.
+- 
 
